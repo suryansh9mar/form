@@ -1,0 +1,232 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    background: transparent;
+    background-color: #4d29b2;
+
+}
+.bar{
+    max-width: 400px;
+    margin: 8% auto;
+    width: 100%;
+    /* background-color: gray; */
+}
+ .step{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    
+}
+.circle1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4070f4;
+    font-size: 22px;
+    font-weight: 500;
+
+    background: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 4px solid #4070f4;
+
+}
+.circle2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    font-size: 22px;
+    font-weight: 500;
+
+    background: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    transition: 1s;
+
+}
+.circle3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    font-size: 22px;
+    font-weight: 500;
+
+    background: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    transition: 1s;
+
+
+}
+.circle4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    font-size: 22px;
+    font-weight: 500;
+
+    background: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    transition: 1s;
+
+}
+
+.progress{
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: #eee;
+    z-index: -1;
+}
+.indicator{
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    background: #4070f4;
+    transition: 1s;
+
+}
+.container0 {
+    width: 90%; /* Adjusted width for responsiveness */
+    max-width: 400px; /* Maximum width for larger screens */
+    height: 700px; /* Auto height */
+    margin: 8% auto;
+    padding: 50px 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.container0 form {
+    position: absolute;
+    transition: 0.5s;
+
+
+}
+
+#form1 {
+    left: 50px;
+
+
+}
+
+#form2 {
+    left: 450px;
+}
+
+#form3 {
+    left: 450px;
+}
+
+#form4 {
+    left: 450px;
+}
+
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+
+
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #666;
+}
+
+
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.name {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.choice {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.btn-box {
+    display: flex;
+
+}
+
+.btn {
+    width: 50%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px;
+
+
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+#choice {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+
+}
